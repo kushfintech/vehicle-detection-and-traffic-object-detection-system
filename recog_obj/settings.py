@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'recognition',
-    'traffic_controller',
 ]
 
 MIDDLEWARE = [
@@ -61,7 +60,6 @@ TEMPLATES = [
             os.path.join(BASE_DIR, "templates"),
             os.path.join(BASE_DIR, "recog_obj", "templates"),
             os.path.join(BASE_DIR, "recognition", "templates"),
-            os.path.join(BASE_DIR, "traffic_controller", "templates"),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -129,7 +127,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
     os.path.join(BASE_DIR, "recog_obj", "static"),
     os.path.join(BASE_DIR, "recognition", "static"),
-    os.path.join(BASE_DIR, "traffic_controller", "static"),
 )
 
 # Default primary key field type
